@@ -70,7 +70,7 @@
             android:summary="%s"
             android:title="@string/in_game_calls_title" />
 
-        <org.derpfest.support.preferences.ProperSeekBarPreference
+        <com.orion.support.preferences.ProperSeekBarPreference
             android:defaultValue="0"
             android:key="gamespace_calls_delay"
             android:max="10"
@@ -131,7 +131,7 @@
             android:summary="@string/lock_gesture_summary"
             android:title="@string/lock_gesture_title" />
 
-        <org.derpfest.support.preferences.ProperSeekBarPreference
+        <com.orion.support.preferences.ProperSeekBarPreference
             android:key="gamespace_menu_opacity"
             android:title="@string/gamespace_menu_opacity_title"
             android:defaultValue="100"
